@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+	list-style-type: none;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 15px;
+	color: #fff;
+	background: url("img/goluboj-czvet-krasivye-kartinki-25.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 2000px;
+}
+.wrapper {
+
+}
+.header {
+	position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 50;
+}
+.container {
+}
+.navbar {
+	display: flex;
+	min-height: 120px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__logo {
+	font-size: 40px;
+	font-weight: 700;
+	text-decoration: none;
+	color: pink;
+}
+
+.nav-list {display: flex; justify-content: space-between;gap: 40px;}
+
+.nav__item {list-style-type: none; text-decoration: none;}
+
+.nav__link {color: black;font-size: 20px;}
+
+.reg-button {text-decoration: none;padding: 20px 40px;background-color: pink;border-radius: 20px;text-transform: uppercase;color: black;letter-spacing: 0.3em;}
+
+.home {
+}
+.home-content-left {height: 1000px;display: flex; gap: 15px;}
+.home-content-right {display: flex; height: 1000px;}
+.block {	width: 200px;
+	height: 200px;background-color: pink;}
+.block_wrapper {
+	display: flex;
+	width: 200px;
+	height: 200px;}
+.suda {
+	margin: auto; background-color: yellow;}
+.one-block {
+	display: flex;
+	margin: auto;
+	background-color: yellow;
+	text-align: center;
+}
+.one-block-text {margin: auto;}
+
+.home__container {
+	padding: 200px 0 0 0;
+	position: relative;
+}
+.item-list {
+	gap: 100px 0;
+}
+.item {
+	text-align: center;
+}
+.text {
+	max-width: 300px;
+	margin: 50px auto;
+}
+.swiper {
+	width: 1000px;
+	height: 500px;
+}
+.list-block {
+	padding-bottom: 200px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+	position: absolute;
+}
+.swiper-button-next{
+	top: 85%;
+	color: red;
+}
+.swiper-button-prev{
+	top: 85%;
+	color: red;
+}
+
+.s-accardeon {
+	padding-top: 100px;
+}
+
+.accardeon {
+	width: 500px;
+	background-color: #fff;
+	border-radius: 10px;
+}
+
+.accardeon-item {
+	background-color: red;
+	border-radius: 10px;
+	margin: 20px 0;
+}
+
+.accardeon__header {
+	height: 50px;
+	cursor: pointer;
+}
+
+.accardeon__title::after {
+	flex-shrink: 0;
+	width: 1.25rem;
+	height: 1.25rem;
+	margin-left: auto;
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+	background-repeat: no-repeat;
+	background-size: 1.25rem;
+	content: "";
+	transition: transform 0.2s ease-out;
+	display: inline-block;
+	margin-left: 150px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+.accardeon__title {
+	padding-left: 15px;
+} 
+
+.accardeon__body {
+	display: none;
+}
+
+.collapse:nth-child(1)
+
+.accardeon__text {
+	
+}
+
+table {
+	border-collapse: collapse;
+	margin: auto;
+}
+
+td {
+	border: 1px solid black;
+	padding: 3px 5px;
+}
+.alert {
+  padding: 15px;
+  border: 1px solid #d6e9c6;
+  border-radius: 4px;
+  color: #3c763d;
+  background-color: #dff0d8;
+}
