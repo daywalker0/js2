@@ -1442,3 +1442,122 @@
 // 		btn.removeEventListener('click', func)
 // 	}
 // }
+
+// let elems = document.querySelectorAll('p');
+
+// for (let elem of elems) {
+// 	elem.addEventListener('click', func);
+// }
+
+// function func() {
+// 	console.log(this.textContent);
+// 	this.removeEventListener('click', func); // отвязываем обработчик
+// }
+
+// let elems = document.querySelectorAll('.item')
+
+// for (let elem of elems) {
+// 	elem.addEventListener('click', function func() {
+// 		this.textContent++
+// 		this.removeEventListener('click', func);
+// 	})
+// }
+
+// let elem = document.querySelector('#elem')
+// let classNames = elem.classList
+
+// for (let className of classNames) {
+// 	document.write(className + '<br>')
+// }
+
+// let elem = document.querySelector('#elem');
+// console.log(elem.dataset.num); // выведет 1000
+
+// let divs = document.querySelectorAll('div')
+
+// for(let div of divs) {
+// 	div.addEventListener('click', function func() {
+// 		this.textContent = this.textContent + this.dataset.num
+// 		div.removeEventListener('click', func)
+// 	})
+// } 
+
+// let btn = document.querySelector('.btn')
+
+// btn.addEventListener('click', function () {
+// 	btn.dataset.count++
+// })
+// btn.addEventListener('double', function () {
+// 	console.log(btn.dataset.count)
+// })
+
+// let elem = document.querySelector('#elem')
+// elem.addEventListener('blur', function func() {
+// 	if (elem.textContent.lenght != elem.dataset.lenght) {
+// 		console.log('Не подходит')
+// 	}
+// })
+
+// let elems = document.querySelectorAll('p');
+// const btn = document.querySelector('button')
+
+// elems.forEach(elem => {
+// 	elem.addEventListener('click', function() {
+// 		elem.textContent = elem.textContent + '!'
+// 	})
+// })
+// let button = document.querySelector('button');
+// let elems  = document.querySelectorAll('p');
+
+// button.addEventListener('click', function() {
+// 	for (let elem of elems) {
+// 		elem.innerHTML = '<b>+elem.innerHTML+</b>';
+// 	}
+// });
+
+// const hamb = document.querySelector('.hamb')
+// const list = document.querySelector('.list')
+// const hambBg = document.querySelector('.hamb-bg')
+// const body = document.body;
+
+// hamb.addEventListener('click', function() {
+// 	e.preventDefault();
+// 	popup.classList.toggle('open');
+// 	hamb.classList.toggle('list-active');
+// 	body.classList.toggle('noscroll');
+// 	renderPopup();
+// })
+
+// function renderPopup() {
+// 	popup.appendChild(menu);
+// }
+
+// let btn  = document.querySelector('#btn');
+// let inp1 = document.querySelector('#inp1');
+// let inp2 = document.querySelector('#inp2');
+// let inp3 = document.querySelector('#inp3');
+
+// btn.addEventListener('click', function() {
+// 	inp3.value = Number(inp1.value) + Number(inp2.value);
+// });
+
+// let button  = document.querySelector('#btn');
+// let res  = document.querySelector('#res');
+// let inp1 = document.querySelector('#inp1');
+// let inp2 = document.querySelector('#inp2');
+
+// button.addEventListener('click', function() {
+// 	res.textContent = Number(inp1.value) + Number(inp2.value);
+// });
+
+// let inputs = document.querySelectorAll('input')
+// let button = document.querySelector('#button')
+
+// button.onclick => () { 
+// 	for (let input of inputs) {
+// 		if (input.value == input.dataset.text) {
+// 			console.log('huy')
+// 		}
+// 	}
+// };
+
