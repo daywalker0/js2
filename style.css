@@ -7,11 +7,10 @@ li {
 	list-style-type: none;
 }
 
-body {
+body:nth-child(1) {
 	font-family: sans-serif;
 	font-size: 15px;
-	color: #fff;
-	background: url("img/goluboj-czvet-krasivye-kartinki-25.jpg");
+	color: #000
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 2000px;

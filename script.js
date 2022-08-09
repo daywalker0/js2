@@ -1561,3 +1561,107 @@
 // 	}
 // };
 
+// let input = document.querySelector('.input')
+// let abzac = document.querySelector('.abzac')
+
+// input.addEventListener('blur', func)
+
+// function func() {
+// 	abzac.textContent = abzac.textContent + input.value
+// 	input.removeEventListener('blur', func)
+// }
+
+// let inputs = document.querySelectorAll('input')
+// let abzac = document.querySelector('.abzac')
+// let btn = document.querySelector('.btn')
+
+// btn.addEventListener('click', func)
+// sum = 0
+// function func() {
+// 	for (let input of inputs) {
+// 		sum = Number(sum) + Number(input.value)
+// 	}
+// 	abzac.textContent = sum
+// }
+
+// let input = document.querySelector('.input')
+// input.addEventListener('blur', func)
+// function func () {
+// 	let mass = []
+// 	mass = input.value
+// 	for (let key of mass) {
+// 		if (key === 'number') {
+// 			sum = 0
+// 			sum =+ +key
+// 		}
+// 		sr = sum / key.lenght
+// 	}
+// 	console.log(sr)
+// }
+
+// let str = '123578910'
+// console.log(str.split('').reverse().join('')) сделать массив из строки и перевернуть и обратно в строку
+
+// let str = '12345'
+// let arr = str.split('')
+// sum = 0
+// for (let key of arr) {
+// 	sum += Number(key)
+// }
+// console.log(arr)
+// console.log(sum)
+
+// let str = 'var_test_text'
+// let arr = str.split('_')
+// for (i = 0; i > arr.length; i++ ) {
+// 	arr[i].slice(0, 1).toUpperCase() + slice(1)
+// 	console.log(arr[i])
+// }
+
+// let people = [
+// 	{name: 'Vladimir', age: 16, city: "ulsk"},
+// 	{name: 'Max', age: 26, city: "ekb"},
+// 	{name: 'Vanya', age: 36, city: "kazan"},
+// 	{name: 'Petya', age: 12, city: "piter"},
+// 	{name: 'Vasya', age: 19, city: "Moscow"}
+// ]
+
+// let adults = people.filter(person => person.age >= 18)
+// console.log(adults)
+
+
+// let parents = [1, 2, 3, 4, 5]
+// let newParents = parents.filter(number => number > 2)
+// console.log(newParents)
+
+// const nums = [1, 2, 3, 4, 5];
+// const pow = nums.map(num => Math.pow(num, 2));
+
+// const strs = ['leto', 'zima', 'vesna']
+// const add = strs.map(str => str + '!')
+// console.log(addArr = [...add])
+
+// const strs = ['leto', 'zima', 'vesna']
+// const add = strs.map(str => str.split('').reverse().join(''))
+// console.log(addArr = [...add])
+
+// let arr = [1, 2, 3, 4, 5];
+// console.log(arr.filter(elem => elem % 2 == 0))
+
+// const input = document.querySelector('.input')
+// input.addEventListener('blur', func)
+
+// let sum = 0;
+
+// function func () {
+// 	arr = input.value.split('')
+// 	for (let key of arr) {
+// 	 if (key === 'number') {
+// 			sum =+ Number(key)
+// 		}
+// 	}
+// 	let sr = sum / 2
+// 	console.log(sr)
+// }
+
+let inputs = document.querySelectorAll('.input')
